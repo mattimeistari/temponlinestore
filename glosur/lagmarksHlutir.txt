@@ -1,0 +1,13 @@
+Lágmarks hlutir
+
+1. camelCase eða snake_case á ÖLLU.             - Kóða skjöl, möppur og myndir eiga allar að heita nöfnum sem nota camelCase eða snake_case. Ekki nota camelCase fyrir eitt og snake_case fyrir annað. Settu fyrir þig sjalfa/nn reglu og stick to it.
+2. file names be good                           - Notaðu lýsandi og skýr nöfn fyrir skrár, myndir og möppur.
+3. GitHub --> used                              - Notaðu GitHub frá byrjuninni og commentaðu rétt fyrir hvert commit. Góð regla er að commit og post eftir hvern dag sem þú vinnur.
+4. Project (To-do, In-progress, Completed)      - Setjið þér raunhæf og náanleg markmið og strikið þau út þegar þið hafið lokið þeim.
+5. USE AI - write in file how you use it        - NOTIÐ AI og verið með skjal sem þið ritið niður hvar og hvenær þú notar AI.
+
+1. Use camelCase or snake_case consistently     - Code documents, file names, and images should all be named using camelCase or snake_case. Don't mix them; choose one naming convention and stick to it.
+2. Choose descriptive file names                - Use meaningful and clear names for files, images, and directories.
+3. GitHub --> use it                            - Utilize GitHub from the beginning and provide proper comments for each commit. A good practice is to commit and push daily as you work.
+4. Project (To-do, In-progress, Completed)      - Set realistic and achievable goals and mark them as completed once you've finished them.
+5. USE AI - Document how you use it             - Make use of AI and maintain a document where you note when and how you use AI.

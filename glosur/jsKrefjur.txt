@@ -1,0 +1,25 @@
+JS
+
+1. Setja upp Nodejs express síðu                        - Kunna að skrifa "npm init" í terminalinn og gefa snirtilegar og réttar upplýsingar.
+2. Setja upp error síðu                                 - Hafa síðu sem tekur á móti notenda ef eitthvað gengur ekki upp.
+3. Setja upp síðu sem notar X mörg skjöl                - Setja upp routes í app.js og vera með X síður.
+4. Textar og gildi í routes og send í views skjölin     - Ekki hafa texta og myndir og svoleiðis í HTML skjalinu heldur í routes js skjölunum.
+5. Kunna if setningar og for lúpur í javaScript         - Hafa þekkingu á hvað for lúpur og if else setningar gera og kunna að nota þær.
+6. Setja gildi í session                                - Setja gögn í req.session.???? þannig að það sé bara til í þessu sessioni og hverfur þegar aðili er hættur að nota síðuna (loggar út).
+7. Nota post og get aðferðir og skilja það              - Þekkja muninn á post og get (get er að skrifa tengilinn í url barinn og post er að vera sentur á síðuna t.d með tengli (link)).
+8. Láta takka gera hluti                                - Nota js til að virkja takka. Til dæmis að láta "Kaupa" takkann gefa vöruhlaðaða kvittun ásamt heildar verð og eyða öllu úr cart.
+9. Darkmode / Lightmode                                 - Hafa slæðuhnapp (takka) sem breytir bakgrunns lit, texta lit og fleirri hluti. Til dæmis breyta background-color frá hvítum í svartann.
+10. Senda upplýsingar í gegnum from                     - Nota js til að taka upplýsingar sentar í gegnum html/ejs <form>.
+
+ENGLISH:
+
+1. Set up a Node.js Express page                        - Know how to run "npm init" in the terminal and provide necessary information.
+2. Create an error page                                 - Have a page that handles user errors gracefully.
+3. Set up a page that uses X number of documents        - Establish routes in app.js and have X pages.
+4. Pass text and values from routes to views            - Avoid putting text and images directly in HTML files; handle them in route JS files.
+5. Understand if statements and for loops in JS         - Familiarize yourself with the purpose of for loops and if-else statements and how to use them.
+6. Store data in sessions                               - Store data in req.session.???? so it's accessible only during the current session and disappears after logout.
+7. Use POST and GET methods and understand them         - Distinguish between POST and GET (GET writes the link in the URL bar, while POST sends data to a page, e.g., through a link).
+8. Make buttons perform actions                         - Use JavaScript to activate buttons, like making a "Buy" button generate an itemized receipt along with the total price and clearing the cart.
+9. Implement Dark Mode / Light Mode                     - Include a toggle button to change background color, text color, and more. For example, switch background-color from white to black.
+10. Send information through a form                     - Utilize JavaScript to process information sent through an HTML/EJS <form>.

@@ -1,0 +1,11 @@
+CSS
+
+1. Background (color / image)		    - Know how to change the color of the background or set the background as an image.
+2. Adjust Font size, color and type.	- Know how to change the color size and type (fontfamily, decoration?).
+3. Align text				            - Be able to move the default side where everything appears (text-align: center;) or left; right; justify;
+4. Image and text together		        - Have the text appear beneath or next to a product's image. For example having a product's description below it's image for convenience sake.
+5. Know how to use margin / padding.	- Change the distance between the item and it's border (padding) and the border and everything else (margin).
+6. Div box around the text and more.	- Have a div tag around items that you want to change all at once. 
+7. on hover				                - Have something change it's look when you hover your mouse over it. For example when you hover over a product image it becomes bigger.
+8. Css style a navbar.			        - Create a navbar so you can easily go between pages on the site. For example - Home - Products - Cart - Account Details -
+9. Borders.				                - Create your own border around items. For example having a black border around your product image.

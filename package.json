@@ -1,0 +1,24 @@
+{
+  "name": "onlineshopping",
+  "version": "1.0.0",
+  "description": "súper sikk effing síða",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mattimeistari/temponlinestore.git"
+  },
+  "keywords": [
+    "store",
+    "online",
+    "onlinestore"
+  ],
+  "author": "Matthías Madsen Hauksson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mattimeistari/temponlinestore/issues"
+  },
+  "homepage": "https://github.com/mattimeistari/temponlinestore#readme"
+}
