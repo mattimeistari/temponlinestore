@@ -6,6 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "type": "module",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/mattimeistari/temponlinestore.git"
@@ -13,10 +14,21 @@
   "keywords": [
     "store",
     "online",
-    "onlinestore"
+    "onlinestore",
+    "ilovemygirlfriend"
   ],
   "author": "Matthías Madsen Hauksson",
   "license": "ISC",
+  "dependencies": {
+    "better-sqlite3": "^8.5.1",
+    "colors": "^1.4.0",
+    "dotenv": "^16.3.1",
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "express-session": "^1.17.3",
+    "path": "^0.12.7",
+    "url": "^0.11.1"
+  },
   "bugs": {
     "url": "https://github.com/mattimeistari/temponlinestore/issues"
   },
