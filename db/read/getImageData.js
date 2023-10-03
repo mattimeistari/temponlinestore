@@ -10,6 +10,6 @@ export const getImageData = (dbFile, title) => {
 		return imageData;
 	} catch (error) {
 		console.error("Error selecting users:", error.message);
-		return null; // return null instead of an empty array if no user is found
+		return false;
 	}
 };

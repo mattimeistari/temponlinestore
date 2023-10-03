@@ -18,30 +18,13 @@ router.get("/", (req, res) => {
 
 	const images = selectImages(dbFile);
 
-	// all images
-	const whiteSakuraCivic = getImageData(dbFile, "whiteSakuraCivic");
-	const bluegrayCivic = getImageData(dbFile, "bluegrayCivic");
-	const supraWhite = getImageData(dbFile, "supraWhite");
-	const supraRed = getImageData(dbFile, "supraRed");
-	const supraBlack = getImageData(dbFile, "supraBlack");
-	const supraGlossyGray = getImageData(dbFile, "supraGlossyGray");
-	const transam = getImageData(dbFile, "77transam")
-
     
 	res.render("index", {
 
 		title,
 		header,
-		images,
-
-		whiteSakuraCivic,
-		bluegrayCivic,
-		supraWhite,
-		supraRed,
-		supraBlack,
-		supraGlossyGray,
-		transam
-
+		images
+		
 	});
 
 });
