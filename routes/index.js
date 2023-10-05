@@ -1,29 +1,30 @@
 import express from "express";
 import path from "path";
 import { fileURLToPath } from "url";
-import { selectImages } from "../db/read/readAll.js";
-import { getImageData } from "../db/read/getImageData.js";
+import { selectProducts } from "../db/read/readAll.js";
+import { getProductData } from "../db/read/getProductData.js";
 
 
 const router = express.Router();
 
-const dbFile = path.join(fileURLToPath(new URL(".", import.meta.url)), "../db/images.db");
+const dbFile = path.join(fileURLToPath(new URL(".", import.meta.url)), "../db/products.db");
 
 // get index page
 router.get("/", (req, res) => {
 
-	const title = "💀💀💀";
+	const title = "The Wormwood River";
+	const subTitle = "";
 
-	const header = "most w images ever, on zars' dead account";
+	const header = "most w products ever, on zars' dead account";
 
-	const images = selectImages(dbFile);
+	const products = selectProducts(dbFile);
 
     
 	res.render("index", {
 
 		title,
 		header,
-		images
+		products
 		
 	});
 

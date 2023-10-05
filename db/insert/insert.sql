@@ -1,2 +1,2 @@
-INSERT INTO images (name, link)
-VALUES ("favicon", "/images/favicon.ico")
+INSERT INTO products (name, link)
+VALUES ("favicon", "/products/favicon.ico")

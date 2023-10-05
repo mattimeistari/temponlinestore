@@ -7,6 +7,7 @@ import dotenv from "dotenv";
 import session from "express-session";
 import { fileURLToPath } from "url";
 import { router as frontRouter } from "./routes/index.js";
+import { router as productPageRouter } from "./routes/productPage.js";
 
 
 const app = express();
@@ -35,6 +36,7 @@ app.use(session({
 
 // routers
 app.use("/", frontRouter);
+app.use("/product", productPageRouter);
 
 
 // errors:  not found

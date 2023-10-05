@@ -1,15 +1,15 @@
 import Database from "better-sqlite3";
 
 // read from the database
-export const selectImages = (dbFile) => {
+export const selectProducts = (dbFile) => {
 	try {
 		const db = new Database(dbFile);
-		const stmt = db.prepare("SELECT * FROM images");
-		const images = stmt.all();
+		const stmt = db.prepare("SELECT * FROM products");
+		const products = stmt.all();
 		db.close();
-		return images;
+		return products;
 	} catch (error) {
-		console.error("Error selecting images:", error.message);
+		console.error("Error selecting products:", error.message);
 		return [];
 	}
 };
