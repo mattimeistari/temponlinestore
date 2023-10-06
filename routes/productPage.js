@@ -19,19 +19,25 @@ router.get("/", (req, res) => {
 router.post("/", (req, res) => {
 
 	const product = getProductDataFromId(dbFile, (Object.values (req.body) [0]));
-	const title = product.title;
-	const header = "temp";
-	const description = product.description;
-	const link = product.imageLink;
+	const title = "The Wormwood River";
 
-	console.log(product);
+	const carTitle = product.title;
+	const carPrice = product.price;
+	const carDescription = product.description;
+	const carImageLink = product.imageLink;
+
+	console.log(title);
     
-	res.render("productMain", {
-		title,
-		header,
+	res.render("productPage", {
+
 		product,
-		description,
-		link
+		title,
+
+		carTitle,
+		carPrice,
+		carDescription,
+		carImageLink
+
 	});
 
 });

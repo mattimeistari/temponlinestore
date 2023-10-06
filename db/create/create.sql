@@ -1,7 +1,7 @@
 CREATE TABLE products (
     productId INTEGER PRIMARY KEY AUTOINCREMENT,
     title VARCHAR(255) UNIQUE NOT NULL,
-    description VARCHAR(255) UNIQUE,
+    description TEXT UNIQUE,
     price INTEGER NOT NULL
 );
 

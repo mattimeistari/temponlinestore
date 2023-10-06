@@ -10,6 +10,7 @@ import { router as frontRouter } from "./routes/index.js";
 import { router as productPageRouter } from "./routes/productPage.js";
 
 
+
 const app = express();
 dotenv.config();
 

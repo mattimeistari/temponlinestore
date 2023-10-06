@@ -1,0 +1,20 @@
+tbody {
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+
+img {
+    width: auto;
+    height: 100px;
+}
+
+#leftHeader {
+    padding: 15px;
+    width: 160px;
+}
+
+#rightHeader {
+    padding: 15px;
+    width: 160px;
+}

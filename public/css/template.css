@@ -1,6 +1,6 @@
 body {
-    background-color: black;
-    color: white;
+    background-color: #1A1110;
+    color: snow;
     font-family: Arial, sans-serif;
 }
 h1 {
@@ -12,7 +12,7 @@ p {
     font-size: 18px;
 }
 a {
-    color: lime;
+    color: darkred;
     text-decoration: none;
 }
 a:hover {
@@ -23,6 +23,6 @@ table {
     border-collapse: collapse;
 }
 th, td {
-    border: 1px solid white;
+    border: 1px solid gainsboro;
     padding: 10px;
 }

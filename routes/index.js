@@ -2,7 +2,6 @@ import express from "express";
 import path from "path";
 import { fileURLToPath } from "url";
 import { selectProducts } from "../db/read/readAll.js";
-import { getProductData } from "../db/read/getProductData.js";
 
 
 const router = express.Router();
@@ -23,6 +22,7 @@ router.get("/", (req, res) => {
 	res.render("index", {
 
 		title,
+		subTitle,
 		header,
 		products
 		

@@ -32,5 +32,8 @@
   "bugs": {
     "url": "https://github.com/mattimeistari/temponlinestore/issues"
   },
-  "homepage": "https://github.com/mattimeistari/temponlinestore#readme"
+  "homepage": "https://github.com/mattimeistari/temponlinestore#readme",
+  "devDependencies": {
+    "eslint": "^8.50.0"
+  }
 }
