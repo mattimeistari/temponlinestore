@@ -13,9 +13,9 @@ const dbFile = path.join(fileURLToPath(new URL(".", import.meta.url)), "../db/pr
 router.get("/", (req, res) => {
 
 	const title = "The Wormwood River";
-	const subTitle = "";
+	const subTitle = "Juiced Marketplace";
 
-	const header = "most w products ever, on zars' dead account";
+	const header = "https://cooltext.com/";
 
 	const products = selectProducts(dbFile);
 
