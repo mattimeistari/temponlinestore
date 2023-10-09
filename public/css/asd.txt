@@ -1,0 +1,40 @@
+img {
+    width: auto;
+    height: 60px;
+}
+
+.leftHeader {
+    padding: 15px;
+    width: 160px;
+    margin: 0;
+}
+
+.rightHeader {
+    padding: 15px;
+    width: 160px;
+    margin: 0;
+}
+
+ul {
+    list-style-type: none; /* Remove the bullets */
+    margin: 0; /* Remove the default margins */
+    padding: 0; /* Remove the default padding */
+    box-sizing: border-box; /* Include padding and border in width calculation */
+}
+
+li {
+    float:left; /* Make the list items align horizontally */
+    vertical-align: middle; /* Add this to align them vertically */
+    margin: 0 5%; /* Add some margin between them relative to screen size */
+}
+
+a {
+    display: block; /* Make the links fill the available space */
+    padding: 15px; /* Add some padding for appearance */
+    text-decoration: none; /* Remove the underline */
+    line-height: 60px; /* Add this to match the image height */
+}
+
+nav {
+    background-color: #4d2f2f; /* Add a background color to the navbar */
+}

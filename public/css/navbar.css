@@ -1,20 +1,46 @@
-tbody {
-    display: table-row-group;
-    vertical-align: middle;
-    border-color: inherit;
+nav {
+    position: sticky;
+    top: 0;
+}
+
+.leftHeader {
+    padding: 15px;
+    width: 160px;
+    margin: 0;
+}
+
+.rightHeader {
+    padding: 15px;
+    width: 160px;
+    margin: 0;
 }
 
 img {
     width: auto;
-    height: 100px;
+    height: 60px;
 }
 
-#leftHeader {
-    padding: 15px;
-    width: 160px;
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #4d2f2f;
 }
 
-#rightHeader {
-    padding: 15px;
-    width: 160px;
+li {
+    float: left;
+    vertical-align: middle;
+}
+
+li a {
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+  /* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #331f1f;
 }
