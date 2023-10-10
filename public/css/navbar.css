@@ -3,44 +3,47 @@ nav {
     top: 0;
 }
 
-.leftHeader {
+nav .leftHeader {
     padding: 15px;
     width: 160px;
     margin: 0;
 }
 
-.rightHeader {
+nav .rightHeader {
     padding: 15px;
     width: 160px;
     margin: 0;
+    float: right;
 }
 
-img {
+nav img {
     width: auto;
     height: 60px;
 }
 
-ul {
+nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #4d2f2f;
+    background-color: #251717;
 }
 
-li {
+nav li {
     float: left;
-    vertical-align: middle;
 }
 
-li a {
+nav li a {
     display: block;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
 }
 
-  /* Change the link color to #111 (black) on hover */
-li a:hover {
+nav li a:hover {
     background-color: #331f1f;
+}
+
+nav #searchBarItem {
+    float: right;
 }

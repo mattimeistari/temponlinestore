@@ -2,27 +2,30 @@ body {
     background-color: #1A1110;
     color: snow;
     font-family: Arial, sans-serif;
+    text-align: center;
 }
+
+#headerLogo {
+    width: 40%;
+    height: auto;
+    padding: 100px;
+}
+
 h1 {
     text-align: center;
     font-size: 36px;
 }
+
 p {
     text-align: center;
     font-size: 18px;
 }
+
 a {
     color: darkred;
     text-decoration: none;
 }
+
 a:hover {
-    text-decoration: underline;
-}
-table {
-    margin: 0 auto;
-    border-collapse: collapse;
-}
-th, td {
-    border: 1px solid gainsboro;
-    padding: 10px;
+    text-decoration: none;
 }
