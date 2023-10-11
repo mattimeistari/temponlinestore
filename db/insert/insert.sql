@@ -8,14 +8,14 @@ VALUES  ("wr", "/images/logos/wr.ico"),
         ("wrFull", "/images/logos/wrFull.png"),
         ("demonIcon", "/images/logos/demonIcon.ico"),
         ("demonPng", "/images/logos/demonPng.png"),
-        ("supraBlack1", "/images/cars/supraBlack1.png"),
-        ("supraBlack2", "/images/cars/supraBlack2.png"),
-        ("supraBlack3", "/images/cars/supraBlack3.png"),
-        ("supraBlack4", "/images/cars/supraBlack4.png"),
-        ("supraRed1", "/images/cars/supraRed1.png"),
-        ("supraRed2", "/images/cars/supraRed2.png"),
-        ("supraRed3", "/images/cars/supraRed3.png"),
-        ("supraRed4", "/images/cars/supraRed4.png");
+        ("supraBlack1", "/images/cars/supraBlack1.jpg"),
+        ("supraBlack2", "/images/cars/supraBlack2.jpg"),
+        ("supraBlack3", "/images/cars/supraBlack3.jpg"),
+        ("supraBlack4", "/images/cars/supraBlack4.jpg"),
+        ("supraRed1", "/images/cars/supraRed1.jpg"),
+        ("supraRed2", "/images/cars/supraRed2.jpg"),
+        ("supraRed3", "/images/cars/supraRed3.jpg"),
+        ("supraRed4", "/images/cars/supraRed4.jpg");
 
 INSERT INTO productImages (productId, imageId)
 VALUES  (1, 6), (1, 7), (1, 8), (1, 9),

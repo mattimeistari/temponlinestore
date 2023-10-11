@@ -8,12 +8,17 @@
 </head>
 <body>
 
-    <img src="images/logos/wrFull.png" alt="Wormwood Logo" id="headerLogo" draggable="false">
+    <img src="/images/logos/wrFull.png" alt="Wormwood Logo" id="headerLogo" draggable="false">
 
     <%- include("includes/navbar") %>
 
     <form action="/product" method="post">
-        <button type="submit" value="1">asd</button>
+        <button type="submit" value="supraBlack">
+
+
+
+            <img src="<%= products[0].link %>" alt="<%= products[0].description %>">
+        </button>
     </form>
     
 </body>
