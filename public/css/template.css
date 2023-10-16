@@ -29,3 +29,12 @@ a {
 a:hover {
     text-decoration: none;
 }
+
+.productImages {
+    width: 500px;
+    height: auto;
+}
+
+#productImageButtons {
+    
+}

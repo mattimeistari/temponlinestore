@@ -13,12 +13,26 @@
     <%- include("includes/navbar") %>
 
     <form action="/product" method="post">
-        <button type="submit" value="supraBlack">
 
+            <% let carType = {}; %>
 
+            <% products.forEach(product => { %>
+                <% if (!carType[product.productId]) { %>
+                    <% carType[product.productId] = 1; %>
+                <% } else { %>
+                    <% carType[product.productId]++; %>
+                <% } %>
+            
+                <% if (carType[product.productId] === 4) { %>
 
-            <img src="<%= products[0].link %>" alt="<%= products[0].description %>">
-        </button>
+                    <button type="submit" value="<%= product.id %>" id="productImageButtons">
+                        <img src="<%= product.link %>" alt="" class="productImages">
+                    </button>
+
+                    <p><%= product.title %></p>
+
+                <% } %>
+            <% }) %>
     </form>
     
 </body>

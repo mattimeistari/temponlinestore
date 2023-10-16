@@ -17,7 +17,7 @@ router.get("/", (req, res) => {
 	const header = "https://cooltext.com/";
 
 	const products = selectProducts(dbFile);
-	console.log(products[0].link);
+	console.log(products);
 
     
 	res.render("index", {
